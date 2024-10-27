@@ -1,9 +1,12 @@
 p {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Oxanium';
 }
 
+.intro{
+    font-family: 'Oxanium';
+    color: navy;
+}
 .thetestbutton {
-        
     font-size: 12px;
     background-color:darkslategrey;
     border-style: dotted;
@@ -28,3 +31,74 @@ p {
     background-color: black;
     color: black;
   }
+
+.thumbnail {
+    width: auto;
+    border-color: black;
+    object-fit: contain;
+    border: 2px;
+    border-style: double;
+    display: inline;
+
+}
+
+.laugh-box {
+    font-family: 'Oxanium';
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tank-buy-offer {
+    display: flex;
+    flex-direction: row;
+}   
+
+.tank-desc {
+    display: inline;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 6px;
+
+}
+.tank-title {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.pricing {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.tank-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.new-price {
+    color: green;
+    margin-left: 7px;
+
+}
+
+.company {
+    margin-top: 0;
+}
+
+.new-price:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+}
+
+.tank-text-details {
+    display: flex;
+    flex-direction: column;
+}
