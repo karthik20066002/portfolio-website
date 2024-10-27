@@ -9,12 +9,25 @@
         background-color:darkslategrey;
         border-style: dotted;
         border-color: chartreuse;
-        color: blueviolet;
+        color: blue;
         width: 79px;
         height: 45px;
         cursor: crosshair;
         border-radius: 12px;
+        margin-top: 50px;
+        transition: opacity 0.15s;
+        transition: background-color 1s, color 1s;
+      }
 
+      .thetestbutton:hover {
+        background-color: darkgreen;
+        opacity: 0.8;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .thetestbutton:active {
+        background-color: black;
+        color: black;
       }
     </style>
     <link rel="icon" type="image/jpg" href="favi.jpg">
